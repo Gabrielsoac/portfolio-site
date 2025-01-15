@@ -1,5 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&family=Lobster&display=swap');
+
 :root {
     --bg-primary-color: #f5f5f5;
     --title-text-color: #000;
-    --content-text-color: #4C00B0;
+    --content-text-color: #8A0303;
+    --bg-dark-mode-color: #282A36;
+    --title-text-dark-mode-color: #FFF;
 }
+  
+body {
+    margin: 0;
+    padding: 0;
+    color: var(--content-text-color);
+    font-family: "Jersey 15", serif;
+}
+
+.dark-mode {
+    background-color: var(--bg-dark-mode-color);
+    color: var(--title-text-dark-mode-color);
+
+}
+
+
+
+
