@@ -32,11 +32,11 @@ body {
 }
 
 .global-sides-margin{
-    margin-left: 5vw;
-    margin-right: 5vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
 }
 
-.glass-efect-light {
+.glass-effect-light {
     background: rgba( 255, 255, 255, 0.35 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 13.5px );
@@ -44,8 +44,8 @@ body {
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
-.glass-efect-dark {
-    background: rgba(0, 0, 0, 0,7);
+.glass-effect-dark {
+    background: rgba(0, 0, 0, 0.35);
     box-shadow: 0 8px 32px 0 rgba(251, 252, 255, 0.37);
     backdrop-filter: blur( 13.5px );
     -webkit-backdrop-filter: blur( 13.5px );
