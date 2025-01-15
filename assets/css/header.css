@@ -8,6 +8,10 @@
     top: 0;
 }
 
+.background-main-header {
+    background-color: whitesmoke;
+}
+
 .nav-main-header {
     width: 100%;
     height: 10vh;
