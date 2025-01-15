@@ -84,6 +84,13 @@
     border-bottom: 1px solid black;
 }
 
+.sub-title-dark-mode {
+    color: inherit;
+    font-family: inherit;
+    font-size: 40px;
+    border-bottom: 1px solid white;
+}
+
 .apresentation-title {
 
 }

@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
 :root {
-    --bg-primary-color: #f5f5f5;
-    --title-text-color: #FFF;
-    --content-text-color: #8A0303;
-    --bg-dark-mode-color: #282A36;
-    --title-text-dark-mode-color: #FFF;
+    --bg-primary-color: #FFFAFA;
+    --title-text-color: #8A0303;
+    --content-text-color: #111;
+
+    /* --bg-dark-mode-color: #282A36;
+    --bg-dark-mode-color: #242526; */
+    --bg-dark-mode-color: #181818;
+    --title-text-dark-mode-color: #FFFAFA;
+    --content-text-dark-mode-color: #FFF;
 }
   
 body {
