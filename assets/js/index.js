@@ -8,7 +8,10 @@ const body = document.querySelector("body");
 const subtitle = document.querySelectorAll(".sub-title");
 
 DARK_LIGHT_MODE.addEventListener('click', e => {
+
     if(!body.classList.contains("dark-mode")){
+        
+        DARK_LIGHT_MODE.src = "./assets/images/light-mode.png"
         
         body.classList.add("dark-mode");
         
@@ -34,6 +37,9 @@ DARK_LIGHT_MODE.addEventListener('click', e => {
 
 
     } else {
+
+        DARK_LIGHT_MODE.src = "./assets/images/night-mode.png"
+
         body.classList.remove("dark-mode");
         
         HEADER.classList.remove("glass-effect-dark");
