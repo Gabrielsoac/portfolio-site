@@ -1,6 +1,8 @@
 const DARK_LIGHT_MODE = document.querySelector(".button-dark-light-mode");
 const FOOTER = document.querySelector(".main-footer");
 const HEADER = document.querySelector(".main-header");
+const BUTTON_LINK_PORTFOLIO = document.querySelector(".link-button");
+const BUTTON_LINK_PROJECT = document.querySelectorAll(".link-button-project");
 const body = document.querySelector("body");
 
 const subtitle = document.querySelectorAll(".sub-title");
@@ -16,10 +18,20 @@ DARK_LIGHT_MODE.addEventListener('click', e => {
         FOOTER.classList.remove("glass-effect-light");
         FOOTER.classList.add("glass-effect-dark");
 
+        BUTTON_LINK_PORTFOLIO.classList.remove("glass-effect-light");
+        BUTTON_LINK_PORTFOLIO.classList.add("glass-effect-dark");
+
+        BUTTON_LINK_PROJECT.forEach(e => {
+            e.classList.remove("glass-effect-light");
+            e.classList.add("glass-effect-dark");
+        })
+
         subtitle.forEach(e => {
             e.classList.remove("sub-title");
             e.classList.add("sub-title-dark-mode");
         });
+
+
 
     } else {
         body.classList.remove("dark-mode");
@@ -30,10 +42,19 @@ DARK_LIGHT_MODE.addEventListener('click', e => {
         FOOTER.classList.remove("glass-effect-dark");
         FOOTER.classList.add("glass-effect-light");
 
+        BUTTON_LINK_PROJECT.forEach(e => {
+            e.classList.remove("glass-effect-dark");
+            e.classList.add("glass-effect-light");
+        })
+
         subtitle.forEach(e => {
             e.classList.remove("sub-title-dark-mode");
             e.classList.add("sub-title");
         });
+
+        BUTTON_LINK_PORTFOLIO.classList.remove("glass-effect-dark");
+        BUTTON_LINK_PORTFOLIO.classList.add("glass-effect-light");
+
 
     }
 });

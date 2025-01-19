@@ -4,3 +4,26 @@
     width: 100%;
     height: 90vh;
 }
+
+.project-item {
+    
+    margin-bottom: 3vh;
+    width: 100%;
+    height: 30vh;
+    color: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.list-projects {
+    list-style:circle;
+}
+
+.link-button-project {
+    width: 2em;
+    height: 2em;
+    border-radius: 30%;
+    cursor: pointer;
+    margin: 3vw 3vh;
+}

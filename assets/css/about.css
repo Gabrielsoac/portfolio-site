@@ -70,6 +70,7 @@
     height: 2em;
     border-radius: 30%;
     cursor: pointer;
+    margin: 2vw 2vh;
 }
 
 .portfolio-text {
