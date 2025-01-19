@@ -16,10 +16,6 @@
     align-items: center;
 }
 
-.list-projects {
-    list-style:circle;
-}
-
 .link-button-project {
     width: 2em;
     height: 2em;

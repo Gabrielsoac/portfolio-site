@@ -4,9 +4,6 @@
     --bg-primary-color: #FFFAFA;
     --title-text-color: #8A0303;
     --content-text-color: #111;
-
-    /* --bg-dark-mode-color: #282A36;
-    --bg-dark-mode-color: #242526; */
     --bg-dark-mode-color: #181818;
     --title-text-dark-mode-color: #FFFAFA;
     --content-text-dark-mode-color: #FFF;
@@ -17,8 +14,6 @@ body {
     padding: 0;
     color: var(--content-text-color);
     font-family: "Playfair Display", serif;
-    box-sizing: border-box;
-
 }
 
 .dark-mode{
@@ -56,6 +51,33 @@ body {
     backdrop-filter: blur( 13.5px );
     -webkit-backdrop-filter: blur( 13.5px );
     border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.link-button {
+    width: 2em;
+    height: 2em;
+    border-radius: 30%;
+    cursor: pointer;
+    margin: 2vw 2vh;
+}
+
+.portfolio-text {
+    font: inherit;
+    font-size: 20px;
+}
+
+.sub-title {
+    color: inherit;
+    font-family: inherit;
+    font-size: 40px;
+    border-bottom: 1px solid black;
+}
+
+.sub-title-dark-mode {
+    color: inherit;
+    font-family: inherit;
+    font-size: 40px;
+    border-bottom: 1px solid white;
 }
 
 

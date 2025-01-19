@@ -64,34 +64,3 @@
     justify-content: center;
     align-items: center;
 }
-
-.link-button {
-    width: 2em;
-    height: 2em;
-    border-radius: 30%;
-    cursor: pointer;
-    margin: 2vw 2vh;
-}
-
-.portfolio-text {
-    font: inherit;
-    font-size: 20px;
-}
-
-.sub-title {
-    color: inherit;
-    font-family: inherit;
-    font-size: 40px;
-    border-bottom: 1px solid black;
-}
-
-.sub-title-dark-mode {
-    color: inherit;
-    font-family: inherit;
-    font-size: 40px;
-    border-bottom: 1px solid white;
-}
-
-.apresentation-title {
-
-}
