@@ -6,3 +6,13 @@
     align-items: center;
 }
 
+.footer-name {
+    margin-left: 0.5vw;
+    color: #6E2AAD;
+}
+
+.footer-name-dark {
+    margin-left: 0.5vw;
+    color: #AA73DD;
+}
+

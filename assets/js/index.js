@@ -4,15 +4,19 @@ const HEADER = document.querySelector(".main-header");
 const BUTTON_LINK_PORTFOLIO = document.querySelector(".link-button");
 const BUTTON_LINK_PROJECT = document.querySelectorAll(".link-button-project");
 const body = document.querySelector("body");
-
 const subtitle = document.querySelectorAll(".sub-title");
+const SUPER_NAME = document.querySelector(".super-name");
+const FOOTER_NAME = document.querySelector(".footer-name");
 
 DARK_LIGHT_MODE.addEventListener('click', e => {
 
     if(!body.classList.contains("dark-mode")){
         
-        DARK_LIGHT_MODE.src = "./assets/images/light-mode.png"
-        
+        DARK_LIGHT_MODE.src = "./assets/images/light-mode.png";  
+
+        SUPER_NAME.src = "https://readme-typing-svg.herokuapp.com?font=Playfair+Display&size=30&pause=1000&color=AA73DD&center=true&repeat=false&width=435&lines=Gabriel+Soares";
+        FOOTER_NAME.classList.add("footer-name-dark");
+
         body.classList.add("dark-mode");
         
         HEADER.classList.remove("glass-effect-light");
@@ -34,13 +38,14 @@ DARK_LIGHT_MODE.addEventListener('click', e => {
             e.classList.add("sub-title-dark-mode");
         });
 
-
-
     } else {
 
         DARK_LIGHT_MODE.src = "./assets/images/night-mode.png"
 
+        SUPER_NAME.src = "https://readme-typing-svg.herokuapp.com?font=Playfair+Display&size=30&pause=1000&color=6E2AAD&center=true&repeat=false&width=435&lines=Gabriel+Soares";
+  
         body.classList.remove("dark-mode");
+        FOOTER_NAME.classList.remove("footer-name-dark");
         
         HEADER.classList.remove("glass-effect-dark");
         HEADER.classList.add("glass-effect-light");
@@ -61,6 +66,6 @@ DARK_LIGHT_MODE.addEventListener('click', e => {
         BUTTON_LINK_PORTFOLIO.classList.remove("glass-effect-dark");
         BUTTON_LINK_PORTFOLIO.classList.add("glass-effect-light");
 
-
     }
-});
+}
+);
