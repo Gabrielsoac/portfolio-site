@@ -16,10 +16,6 @@ body {
     font-family: "Playfair Display", serif;
 }
 
-.dark-mode{
-    background-color: var(--bg-dark-mode-color);
-    color: var(--title-text-dark-mode-color);
-}
 
 .main-content {
     display: flex;
@@ -44,13 +40,6 @@ body {
     border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 
-.glass-effect-dark {
-    background: rgba(0, 0, 0, 0.8);
-    box-shadow: 0 8px 32px 0 rgba(251, 252, 255, 0.37);
-    -webkit-backdrop-filter: blur( 13.5px );
-    border: 1px solid rgba(255, 255, 255, 0.18);
-}
-
 .link-button {
     width: 2em;
     height: 2em;
@@ -69,13 +58,6 @@ body {
     font-family: inherit;
     font-size: 40px;
     border-bottom: 1px solid black;
-}
-
-.sub-title-dark-mode {
-    color: inherit;
-    font-family: inherit;
-    font-size: 40px;
-    border-bottom: 1px solid white;
 }
 
 html {

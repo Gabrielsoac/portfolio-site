@@ -26,7 +26,6 @@
     width: 10em;
     height: 10em;
     border: none;
-    border-radius: 30%;
 
     background-color: transparent;
     
@@ -42,7 +41,7 @@
     width: inherit;
     height: inherit;
     border-radius: 50%;
-    
+    border: 3px solid black;
 }
 
 .about-text {

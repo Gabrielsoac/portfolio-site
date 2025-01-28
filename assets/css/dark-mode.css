@@ -1,0 +1,32 @@
+.image-button-darkmode {
+    width: inherit;
+    height: inherit;
+    border-radius: 50%;
+    border: 3px solid black;
+}
+
+.glass-effect-dark {
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 8px 32px 0 rgba(251, 252, 255, 0.37);
+    -webkit-backdrop-filter: blur( 13.5px );
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.dark-mode{
+    background-color: var(--bg-dark-mode-color);
+    color: var(--title-text-dark-mode-color);
+}
+
+.sub-title-dark-mode {
+    color: inherit;
+    font-family: inherit;
+    font-size: 40px;
+    border-bottom: 1px solid white;
+}
+
+.image-button-dark-mode {
+    width: inherit;
+    height: inherit;
+    border-radius: 50%;
+    border: 3px solid rgb(255, 255, 255);
+}
